@@ -1,0 +1,12 @@
+// MODIFIEZ VOS PRODUITS ICI : c'est le seul fichier de catalogue à modifier.
+// Pour chaque produit : id unique, nom, prix en FCFA, photo (URL), description, categorie, stock.
+const PRODUITS = [
+ {id:"plaquettes-frein",nom:"Plaquettes de frein",prix:15000,photo:"https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=80",description:"Jeu de plaquettes de frein. Référence à confirmer selon le véhicule.",categorie:"Freinage",stock:10},
+ {id:"disque-frein",nom:"Disque de frein",prix:25000,photo:"https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&q=80",description:"Disque de frein pour plusieurs modèles, contactez-nous pour compatibilité.",categorie:"Freinage",stock:6},
+ {id:"filtre-huile",nom:"Filtre à huile",prix:5000,photo:"https://images.unsplash.com/photo-1635784063381-7e8f0a1a5c8b?auto=format&fit=crop&w=700&q=80",description:"Filtration moteur. Vérifiez la référence de votre véhicule.",categorie:"Filtres",stock:15},
+ {id:"filtre-air",nom:"Filtre à air",prix:8000,photo:"https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=700&q=80",description:"Filtre à air moteur, plusieurs références disponibles.",categorie:"Filtres",stock:8},
+ {id:"batterie",nom:"Batterie automobile",prix:65000,photo:"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80",description:"Batterie auto. Ampérage et dimensions à confirmer.",categorie:"Électricité",stock:4},
+ {id:"amortisseur",nom:"Amortisseur",prix:45000,photo:"https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=80",description:"Amortisseur selon marque et modèle de votre véhicule.",categorie:"Suspension",stock:5},
+ {id:"piece-moteur",nom:"Pièce moteur",prix:12000,photo:"https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=700&q=80",description:"Pièces moteur : contactez-nous avec la référence recherchée.",categorie:"Moteur",stock:7},
+ {id:"accessoire-auto",nom:"Accessoire automobile",prix:18000,photo:"https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=80",description:"Accessoires auto. Demandez les modèles disponibles.",categorie:"Accessoires",stock:9}
+];

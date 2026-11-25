@@ -1,0 +1,31 @@
+PIÈCES AUTO KOUASSI — GUIDE RAPIDE
+
+FICHIERS
+- index.html : boutique publique à publier sur GitHub Pages.
+- produits.js : catalogue des produits et prix.
+- admin.html : tableau de bord visuel pour ajouter, modifier ou supprimer des produits.
+
+COULEURS
+Le design reprend l'esprit mobile de la capture (barre supérieure, grand bandeau d'accueil,
+boutons d'action, cartes produits, navigation fixe en bas et bouton WhatsApp flottant),
+avec une palette différente : bleu nuit, bleu automobile, cyan et jaune.
+
+PUBLICATION GITHUB PAGES
+1. Décompressez le ZIP.
+2. Envoyez index.html, produits.js et admin.html à la racine du dépôt GitHub.
+3. Activez GitHub Pages dans Settings > Pages.
+4. Ouvrez l'adresse du site.
+
+MODIFIER LES PRODUITS
+Méthode simple : ouvrez admin.html dans votre navigateur.
+Ajoutez/modifiez/supprimez les produits puis cliquez sur « Télécharger produits.js mis à jour ».
+Remplacez l'ancien produits.js sur GitHub par le fichier téléchargé.
+Les changements seront publiés après la mise à jour GitHub Pages.
+
+IMPORTANT
+- WhatsApp utilisé : 21655061653 (numéro fourni précédemment).
+- Localisation affichée : Abidjan, Côte d’Ivoire.
+- Prix d'exemple en FCFA : vérifiez et modifiez les tarifs et stocks avant publication.
+- Le panier utilise localStorage sur l'appareil du visiteur. La validation de commande ouvre WhatsApp.
+- Ce site est statique : il ne possède pas de base de données ni de paiement en ligne.
+- Les liens Google Fonts, Font Awesome et images distantes nécessitent une connexion Internet.
